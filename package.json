@@ -26,7 +26,8 @@
     "dependencies": {
         "mimelib": ">=0.2.6",
         "encoding": ">=0.1.4",
-        "mime": "*"
+        "mime": "*",
+        "amdefine": ">=0.0.8"
     },
     "optionalDependencies":{
         "iconv": "*"
