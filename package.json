@@ -27,7 +27,8 @@
         "mimelib": ">=0.2.6",
         "encoding": ">=0.1.4",
         "mime": "*",
-        "amdefine": ">=0.0.8"
+        "amdefine": ">=0.0.8",
+        "setimmediate": ">=1.0.1"
     },
     "optionalDependencies":{
         "iconv": "*"
