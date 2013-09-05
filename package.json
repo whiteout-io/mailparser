@@ -30,9 +30,6 @@
         "amdefine": ">=0.0.8",
         "setimmediate": ">=1.0.1"
     },
-    "optionalDependencies":{
-        "iconv": "*"
-    },
     "devDependencies": {
         "nodeunit": "*"
     },
