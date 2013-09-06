@@ -26,7 +26,7 @@
     "dependencies": {
         "mimelib": ">=0.2.6",
         "encoding": ">=0.1.4",
-        "mime": "*",
+        "mime": "https://github.com/whiteout-io/node-mime/tarball/master",
         "amdefine": ">=0.0.8",
         "setimmediate": ">=1.0.1"
     },
