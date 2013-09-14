@@ -2,11 +2,12 @@ if (typeof define !== 'function') { var define = require('amdefine')(module); }
 
 define(function (require) {
 
-var Stream = require('stream').Stream,
-    utillib = require('util'),
+var shims = require('node-shims'),
+    Stream = shims.Stream,
+    utillib = shims.util,
+    crypto = shims.crypto,
     mimelib = require("mimelib"),
-    encodinglib = require("encoding"),
-    crypto = require("crypto");
+    encodinglib = require("encoding");
 
 function Base64Stream(){
     Stream.call(this);

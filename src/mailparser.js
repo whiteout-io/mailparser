@@ -8,13 +8,13 @@ define(function (require) {
  * @version 0.2.23
  */
 
-var Stream = require("stream").Stream,
-    utillib = require("util"),
+var shims = require('node-shims'),
+    Stream = shims.Stream,
+    utillib = shims.util,
+    crypto = shims.crypto,
     mimelib = require("mimelib"),
     datetime = require("./datetime"),
     encodinglib = require("encoding"),
-    Streams = require("./streams"),
-    crypto = require("crypto"),
     mime = require("mime");
 
 require("setimmediate");
