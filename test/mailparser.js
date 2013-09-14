@@ -1,4 +1,4 @@
-var MailParser = require("../lib/mailparser").MailParser,
+var MailParser = require("..").MailParser,
     testCase = require('nodeunit').testCase,
     utillib = require("util"),
     encodinglib = require("encoding"),

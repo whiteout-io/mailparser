@@ -16,7 +16,7 @@
     "scripts":{
         "test": "nodeunit test/"
     },
-    "main" : "./lib/mailparser",
+    "main" : "src/mailparser",
     "licenses" : [
         {
             "type": "MIT",
@@ -24,9 +24,9 @@
         }
     ],
     "dependencies": {
-        "mimelib": ">=0.2.6",
-        "encoding": ">=0.1.4",
-        "mime": "https://github.com/whiteout-io/node-mime/tarball/master",
+        "mimelib": "https://github.com/whiteout-io/mimelib/tarball/amd",
+        "encoding": "https://github.com/whiteout-io/encoding/tarball/amd",
+        "mime": "https://github.com/whiteout-io/node-mime/tarball/amd",
         "amdefine": ">=0.0.8",
         "setimmediate": ">=1.0.1"
     },
