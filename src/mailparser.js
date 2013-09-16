@@ -10,6 +10,7 @@ define(function (require) {
 
 var shims = require('node-shims'),
     Stream = shims.Stream,
+    Buffer = shims.Buffer.Buffer,
     utillib = shims.util,
     crypto = shims.crypto,
     mimelib = require("mimelib"),
