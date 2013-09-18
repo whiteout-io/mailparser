@@ -494,6 +494,7 @@ MailParser.prototype._processHeaderLine = function(pos){
             break;
         case "content-transfer-encoding":
             this._currentNode.meta.transferEncoding = value.toLowerCase();
+            this._currentNode["content-transfer-encoding"] = value.toLowerCase();
             break;
         case "subject":
             this._currentNode.subject = this._encodeString(value);
