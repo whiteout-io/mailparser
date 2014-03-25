@@ -1,7 +1,7 @@
 {
     "name": "mailparser",
     "description": "Asynchronous and non-blocking parser for mime encoded e-mail messages",
-    "version": "0.3.7-dev",
+    "version": "0.4.0",
     "author" : "Andris Reinman",
     "maintainers":[
         {
@@ -24,10 +24,10 @@
         }
     ],
     "dependencies": {
-        "mimelib": "https://github.com/whiteout-io/mimelib/tarball/amd",
-        "encoding": "https://github.com/whiteout-io/encoding/tarball/amd",
-        "mime": "https://github.com/whiteout-io/node-mime/tarball/amd",
-        "node-shims": "https://github.com/whiteout-io/node-shims/tarball/master",
+        "mimelib": "https://github.com/whiteout-io/mimelib/tarball/v0.3.0",
+        "encoding": "https://github.com/whiteout-io/encoding/tarball/v0.2.0",
+        "mime": "https://github.com/whiteout-io/node-mime/tarball/v1.3.0",
+        "node-shims": "https://github.com/whiteout-io/node-shims/tarball/v0.1.1",
         "amdefine": ">=0.0.8",
         "setimmediate": ">=1.0.1"
     },
